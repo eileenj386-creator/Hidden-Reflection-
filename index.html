@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <title>لعبة الانعكاس</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="container">
+
+  <h1>لعبة الانعكاس</h1>
+
+  <div id="start-screen">
+    <input type="text" id="playerName" placeholder="اكتب اسمك..." />
+    <button onclick="startGame()">ابدأ</button>
+  </div>
+
+  <div id="game-screen" class="hidden">
+    <h2 id="question"></h2>
+    <div id="answers"></div>
+  </div>
+
+  <div id="result-screen" class="hidden">
+    <h2 id="final-title"></h2>
+    <p id="final-text"></p>
+    <h3 id="story-name"></h3>
+    <p id="story-desc"></p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
